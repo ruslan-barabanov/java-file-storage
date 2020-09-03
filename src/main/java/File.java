@@ -33,9 +33,5 @@ public class File {
     public String getFilename() {
         return filename;
     }
-//    /**
-//     * Get File filename
-//     * @return File filename
-//     */
-//    public String getExtencion(){return extension;}
+
 }
