@@ -18,7 +18,6 @@ public class FileStorageTest {
         File file = new File("Princess", "Jack");
         assertTrue(fileStorage.write(file));
     }
-
     @Test
     public void testIsExist() throws FileNameAlreadyExistsException {
         FileStorage fileStorage = new FileStorage();
@@ -46,6 +45,4 @@ public class FileStorageTest {
         assertTrue(fs.write(new File("filename1", "123450")));
         assertFalse(fs.write(new File("filename2", "123450")));
     }
-
 }
-
